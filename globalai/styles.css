@@ -1,0 +1,207 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header Stili */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px; /* Logo genişliği */
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 15px; /* Menü öğeleri arasındaki boşluk */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* İlk menü öğesinin boşluğu */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+main {
+    padding-top: 60px; /* Header'in üzerine gelmemesi için padding eklendi */
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+}
+
+.geziler-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gezi {
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.gezi img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0; /* Padding artırıldı */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0; /* Paragrafın boşluğu sıfırlandı */
+    font-size: 16px; /* Yazı boyutu artırıldı */
+}
+
+.form-panel {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: calc(50% - 40px); /* Genişlik daraltıldı */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Padding ve border hesaba katılsın */
+}
+
+form input[type="submit"] {
+    width: 100%;footer p {
+    margin: 0; /* Paragrafın boşluğu sıfırlandı */
+    font-size: 14px; /* Yazı boyutu düşürüldü */
+}
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Ziyaretçi Yorumları */
+#ziyaretci-yorumlari {
+    text-align: center;
+}
+
+.yorum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.yorum img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.copy {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.social-media,
+.feedback-form {
+    flex-basis: calc(50% - 5px); /* Kutucukların genişliği belirlendi */
+}
+
+.social-media {
+    margin-right: 5px; /* Sağdaki kutucuğun sağ tarafına boşluk bırakıldı */
+}
+
+.feedback-form {
+    margin-left: 5px; /* Soldaki kutucuğun sol tarafına boşluk bırakıldı */
+}
+
+.social-media,
+.feedback-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Kutucuklar arasında boşluk bırakıldı */
+}
+
+.hakkinda-content {
+    display: flex;
+    align-items: top; /* İçeriği dikey olarak hizala */
+}
+
+.hakkinda-content img {
+    margin-right: 20px; /* Resim ile metin arasındaki boşluğu ayarla */
+}

@@ -1,0 +1,32 @@
+ChatGPT 3.5 Promtlar :  https://chat.openai.com/share/3fa654ae-46ad-4f29-8af6-321ad206d0d0
+			https://chat.openai.com/share/b68026d8-8b15-4efd-ab5c-fcaa6fb18be4
+			https://chat.openai.com/share/8bc7d2a6-f190-48fd-8855-e11033a54a58
+
+Görseller İçin Kullanılan Promtlar;
+
+1.Gezi rehberi olarak tasarladığım bir web sitesi var. Bunun için Pamukkale'ye ait iyi bir görsel verir misin? 300x350
+Çıktı : gezi1.jpg 
+
+2.Kapadokya için de bir görsel verir misin?
+Çıktı : gezi2.jpg 
+
+3.Efes Antik kenti için de bir görsel verir misin?
+Çıktı : gezi3.jpg 
+
+4.Şirince Köyü için de bir görsel verir misin?
+Çıktı : gezi4.jpg 
+
+5.Antalya Kalesi için de bir görsel verir misin?
+Çıktı : gezi5.jpg 
+
+6.Nemrut dağı için de bir görsel verir misin?
+Çıktı : gezi6.jpg 
+
+7.Gezilecek yerler için bir doğa ile ilgili logo verir misin?
+Çıktı : logo.png
+
+8.Dört adet orta yaş insan fotoğrafı verir misin?
+Çıktı : user1, user2, user3, user4.png
+
+
+Sitenin yapımında ChatGPT 3.5 ve görsel oluşturulmasında Microsoft Copilot Designer kullanılmıştır.
